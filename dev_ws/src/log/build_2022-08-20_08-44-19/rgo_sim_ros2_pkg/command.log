@@ -1,4 +1,0 @@
-Invoking command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg -- -j2 -l2
-Invoked command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg -- -j2 -l2
-Invoking command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg
-Invoked command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg
