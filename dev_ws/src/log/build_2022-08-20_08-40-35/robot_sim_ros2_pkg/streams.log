@@ -1,0 +1,78 @@
+[0.024s] Invoking command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ros-industrial/rgo/ros2/dev_ws/src/robot_sim_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg
+[0.226s] -- The C compiler identification is GNU 9.4.0
+[0.455s] -- The CXX compiler identification is GNU 9.4.0
+[0.465s] -- Check for working C compiler: /usr/bin/cc
+[0.631s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.637s] -- Detecting C compiler ABI info
+[0.735s] -- Detecting C compiler ABI info - done
+[0.746s] -- Detecting C compile features
+[0.747s] -- Detecting C compile features - done
+[0.750s] -- Check for working CXX compiler: /usr/bin/c++
+[0.879s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.879s] -- Detecting CXX compiler ABI info
+[0.983s] -- Detecting CXX compiler ABI info - done
+[1.005s] -- Detecting CXX compile features
+[1.008s] -- Detecting CXX compile features - done
+[1.011s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.038s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.038s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.308s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.376s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.510s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.539s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.632s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.716s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.719s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.722s] -- Looking for pthread.h
+[1.821s] -- Looking for pthread.h - found
+[1.821s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.914s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.914s] -- Looking for pthread_create in pthreads
+[1.987s] -- Looking for pthread_create in pthreads - not found
+[1.987s] -- Looking for pthread_create in pthread
+[2.088s] -- Looking for pthread_create in pthread - found
+[2.094s] -- Found Threads: TRUE  
+[2.286s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.330s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.423s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.508s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.510s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.510s] -- Configured cppcheck include dirs: 
+[2.511s] -- Configured cppcheck exclude dirs and/or files: 
+[2.512s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.512s] -- Configured cpplint exclude dirs and/or files: 
+[2.514s] -- Added test 'lint_cmake' to check CMake code style
+[2.515s] -- Added test 'uncrustify' to check C / C++ code style
+[2.516s] -- Configured uncrustify additional arguments: 
+[2.517s] -- Added test 'xmllint' to check XML markup files
+[2.521s] -- Configuring done
+[2.533s] -- Generating done
+[2.536s] -- Build files have been written to: /home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg
+[2.545s] Invoked command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ros-industrial/rgo/ros2/dev_ws/src/robot_sim_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg
+[2.546s] Invoking command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg -- -j2 -l2
+[2.600s] [35m[1mScanning dependencies of target robot_sim_ros2_node[0m
+[2.747s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o[0m
+[10.726s] [100%] [32m[1mLinking CXX executable robot_sim_ros2_node[0m
+[11.210s] [100%] Built target robot_sim_ros2_node
+[11.226s] Invoked command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg -- -j2 -l2
+[11.271s] Invoking command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg
+[11.283s] -- Install configuration: ""
+[11.283s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/lib/robot_sim_ros2_pkg/robot_sim_ros2_node
+[11.290s] -- Set runtime path of "/home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/lib/robot_sim_ros2_pkg/robot_sim_ros2_node" to ""
+[11.290s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/robot_sim_ros2_pkg
+[11.290s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/robot_sim_ros2_pkg
+[11.291s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/ament_prefix_path.sh
+[11.291s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/ament_prefix_path.dsv
+[11.292s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/path.sh
+[11.292s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/path.dsv
+[11.293s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.bash
+[11.293s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.sh
+[11.294s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.zsh
+[11.295s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.dsv
+[11.295s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/package.dsv
+[11.296s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/ament_index/resource_index/packages/robot_sim_ros2_pkg
+[11.296s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/cmake/robot_sim_ros2_pkgConfig.cmake
+[11.297s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/cmake/robot_sim_ros2_pkgConfig-version.cmake
+[11.297s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/package.xml
+[11.301s] Invoked command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg

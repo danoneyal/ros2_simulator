@@ -1,0 +1,52 @@
+[0.020s] Invoking command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros-industrial/rgo/ros2/dev_ws/src/rgo_sim_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg
+[0.040s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.267s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.304s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.308s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.437s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.492s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.494s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.659s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.698s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.786s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.874s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.876s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.876s] -- Configured cppcheck include dirs: 
+[0.876s] -- Configured cppcheck exclude dirs and/or files: 
+[0.878s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.878s] -- Configured cpplint exclude dirs and/or files: 
+[0.879s] -- Added test 'lint_cmake' to check CMake code style
+[0.880s] -- Added test 'uncrustify' to check C / C++ code style
+[0.881s] -- Configured uncrustify additional arguments: 
+[0.881s] -- Added test 'xmllint' to check XML markup files
+[0.886s] -- Configuring done
+[0.899s] -- Generating done
+[0.902s] -- Build files have been written to: /home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg
+[0.908s] Invoked command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros-industrial/rgo/ros2/dev_ws/src/rgo_sim_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg
+[0.913s] Invoking command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg -- -j2 -l2
+[0.967s] [35m[1mScanning dependencies of target rgo_sim_ros2_node[0m
+[1.014s] [ 50%] [32mBuilding CXX object CMakeFiles/rgo_sim_ros2_node.dir/src/rgo_sim_ros2_node.cpp.o[0m
+[9.179s] [100%] [32m[1mLinking CXX executable rgo_sim_ros2_node[0m
+[9.570s] [100%] Built target rgo_sim_ros2_node
+[9.584s] Invoked command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg -- -j2 -l2
+[9.639s] Invoking command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg
+[9.650s] -- Install configuration: ""
+[9.651s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/lib/rgo_sim_ros2_pkg/rgo_sim_ros2_node
+[9.655s] -- Set runtime path of "/home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/lib/rgo_sim_ros2_pkg/rgo_sim_ros2_node" to ""
+[9.655s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/rgo_sim_ros2_pkg
+[9.656s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/rgo_sim_ros2_pkg
+[9.657s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/environment/ament_prefix_path.sh
+[9.657s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/environment/ament_prefix_path.dsv
+[9.657s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/environment/path.sh
+[9.658s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/environment/path.dsv
+[9.658s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/local_setup.bash
+[9.659s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/local_setup.sh
+[9.659s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/local_setup.zsh
+[9.660s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/local_setup.dsv
+[9.660s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/package.dsv
+[9.661s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/ament_index/resource_index/packages/rgo_sim_ros2_pkg
+[9.661s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/cmake/rgo_sim_ros2_pkgConfig.cmake
+[9.662s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/cmake/rgo_sim_ros2_pkgConfig-version.cmake
+[9.662s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/package.xml
+[9.664s] Invoked command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros-industrial/rgo/ros2/dev_ws/src/build/rgo_sim_ros2_pkg

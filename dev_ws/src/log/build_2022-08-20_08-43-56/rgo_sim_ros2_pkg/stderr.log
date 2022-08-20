@@ -1,0 +1,4 @@
+[01m[K/home/ros-industrial/rgo/ros2/dev_ws/src/rgo_sim_ros2_pkg/src/rgo_sim_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RgoRos2Node::subscribe_message(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ros-industrial/rgo/ros2/dev_ws/src/rgo_sim_ros2_pkg/src/rgo_sim_ros2_node.cpp:63:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   63 |     void subscribe_message([01;35m[Kconst geometry_msgs::msg::Twist::SharedPtr message[m[K) const
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K

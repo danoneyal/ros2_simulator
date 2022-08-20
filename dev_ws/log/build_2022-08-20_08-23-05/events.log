@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.001911] (rgo_sim_ros2_pkg) JobQueued: {'identifier': 'rgo_sim_ros2_pkg', 'dependencies': OrderedDict()}
+[0.001973] (rgo_sim_ros2_pkg) JobStarted: {'identifier': 'rgo_sim_ros2_pkg'}
+[0.014404] (rgo_sim_ros2_pkg) JobProgress: {'identifier': 'rgo_sim_ros2_pkg', 'progress': 'cmake'}
+[0.015588] (rgo_sim_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/ros-industrial/rgo/ros2/dev_ws/src/rgo_sim_ros2_pkg', '-DCMAKE_INSTALL_PREFIX=/home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg'], 'cwd': '/home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros-industrial'), ('SSH_AGENT_PID', '1654'), ('ROS_PACKAGE_PATH', '/home/ros-industrial/rgo/ros1/catkin_ws/src:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/ros-industrial/rgo/ros1/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/ros-industrial'), ('OLDPWD', '/home/ros-industrial/rgo/ros2/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1480'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4717'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ros-industrial'), ('JOURNAL_STREAM', '8:60142'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ros-industrial/rgo/ros1/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros-industrial'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/ros-industrial/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1689,unix/ubuntu:/tmp/.ICE-unix/1689'), ('INVOCATION_ID', '13a835de1d9b4ed6826ee0c268ac1d4d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ros-industrial/rgo/ros1/catkin_ws/devel/share/common-lisp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7566d932-f2f2-4415-abf9-f6c6358c08d2'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/ros-industrial/rgo/ros1/catkin_ws/devel:/opt/ros/noetic')]), 'shell': False}
+[0.035219] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.056199] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099628] (-) TimerEvent: {}
+[0.200019] (-) TimerEvent: {}
+[0.260121] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.291140] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.294407] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300096] (-) TimerEvent: {}
+[0.400379] (-) TimerEvent: {}
+[0.406512] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.456680] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.458305] (rgo_sim_ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500494] (-) TimerEvent: {}
+[0.600922] (-) TimerEvent: {}
+[0.602582] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.637257] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.701036] (-) TimerEvent: {}
+[0.716509] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.801221] (-) TimerEvent: {}
+[0.803371] (rgo_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.804754] (rgo_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.804980] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.805142] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.806149] (rgo_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.806307] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.807522] (rgo_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.808958] (rgo_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.809156] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.809974] (rgo_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.813676] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.821538] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.822946] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg\n'}
+[0.829721] (rgo_sim_ros2_pkg) CommandEnded: {'returncode': 0}
+[0.831896] (rgo_sim_ros2_pkg) JobProgress: {'identifier': 'rgo_sim_ros2_pkg', 'progress': 'build'}
+[0.831952] (rgo_sim_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg', '--', '-j2', '-l2'], 'cwd': '/home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros-industrial'), ('SSH_AGENT_PID', '1654'), ('ROS_PACKAGE_PATH', '/home/ros-industrial/rgo/ros1/catkin_ws/src:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/ros-industrial/rgo/ros1/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/ros-industrial'), ('OLDPWD', '/home/ros-industrial/rgo/ros2/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1480'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4717'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ros-industrial'), ('JOURNAL_STREAM', '8:60142'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ros-industrial/rgo/ros1/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros-industrial'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/ros-industrial/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1689,unix/ubuntu:/tmp/.ICE-unix/1689'), ('INVOCATION_ID', '13a835de1d9b4ed6826ee0c268ac1d4d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ros-industrial/rgo/ros1/catkin_ws/devel/share/common-lisp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7566d932-f2f2-4415-abf9-f6c6358c08d2'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/ros-industrial/rgo/ros1/catkin_ws/devel:/opt/ros/noetic')]), 'shell': False}
+[0.877709] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rgo_sim_ros2_node\x1b[0m\n'}
+[0.901284] (-) TimerEvent: {}
+[1.001671] (-) TimerEvent: {}
+[1.062505] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rgo_sim_ros2_node.dir/src/rgo_sim_ros2_node.cpp.o\x1b[0m\n'}
+[1.101771] (-) TimerEvent: {}
+[1.202143] (-) TimerEvent: {}
+[1.302506] (-) TimerEvent: {}
+[1.402862] (-) TimerEvent: {}
+[1.503247] (-) TimerEvent: {}
+[1.603543] (-) TimerEvent: {}
+[1.703857] (-) TimerEvent: {}
+[1.804172] (-) TimerEvent: {}
+[1.904453] (-) TimerEvent: {}
+[2.004748] (-) TimerEvent: {}
+[2.105040] (-) TimerEvent: {}
+[2.205320] (-) TimerEvent: {}
+[2.305599] (-) TimerEvent: {}
+[2.405885] (-) TimerEvent: {}
+[2.506198] (-) TimerEvent: {}
+[2.606494] (-) TimerEvent: {}
+[2.706795] (-) TimerEvent: {}
+[2.807078] (-) TimerEvent: {}
+[2.907350] (-) TimerEvent: {}
+[3.007655] (-) TimerEvent: {}
+[3.107967] (-) TimerEvent: {}
+[3.208254] (-) TimerEvent: {}
+[3.308526] (-) TimerEvent: {}
+[3.408825] (-) TimerEvent: {}
+[3.509138] (-) TimerEvent: {}
+[3.609420] (-) TimerEvent: {}
+[3.709684] (-) TimerEvent: {}
+[3.809973] (-) TimerEvent: {}
+[3.910248] (-) TimerEvent: {}
+[4.010623] (-) TimerEvent: {}
+[4.110914] (-) TimerEvent: {}
+[4.211235] (-) TimerEvent: {}
+[4.311520] (-) TimerEvent: {}
+[4.411831] (-) TimerEvent: {}
+[4.512154] (-) TimerEvent: {}
+[4.612458] (-) TimerEvent: {}
+[4.712756] (-) TimerEvent: {}
+[4.813043] (-) TimerEvent: {}
+[4.913353] (-) TimerEvent: {}
+[5.013668] (-) TimerEvent: {}
+[5.113958] (-) TimerEvent: {}
+[5.214250] (-) TimerEvent: {}
+[5.314538] (-) TimerEvent: {}
+[5.414819] (-) TimerEvent: {}
+[5.515106] (-) TimerEvent: {}
+[5.615381] (-) TimerEvent: {}
+[5.715742] (-) TimerEvent: {}
+[5.816022] (-) TimerEvent: {}
+[5.916298] (-) TimerEvent: {}
+[6.016575] (-) TimerEvent: {}
+[6.116839] (-) TimerEvent: {}
+[6.217137] (-) TimerEvent: {}
+[6.317421] (-) TimerEvent: {}
+[6.417723] (-) TimerEvent: {}
+[6.518008] (-) TimerEvent: {}
+[6.618283] (-) TimerEvent: {}
+[6.718565] (-) TimerEvent: {}
+[6.818840] (-) TimerEvent: {}
+[6.919124] (-) TimerEvent: {}
+[7.019406] (-) TimerEvent: {}
+[7.119723] (-) TimerEvent: {}
+[7.220022] (-) TimerEvent: {}
+[7.320326] (-) TimerEvent: {}
+[7.420613] (-) TimerEvent: {}
+[7.520910] (-) TimerEvent: {}
+[7.621205] (-) TimerEvent: {}
+[7.721524] (-) TimerEvent: {}
+[7.821840] (-) TimerEvent: {}
+[7.922144] (-) TimerEvent: {}
+[8.022427] (-) TimerEvent: {}
+[8.023372] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rgo_sim_ros2_node\x1b[0m\n'}
+[8.122530] (-) TimerEvent: {}
+[8.222840] (-) TimerEvent: {}
+[8.323153] (-) TimerEvent: {}
+[8.416017] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'[100%] Built target rgo_sim_ros2_node\n'}
+[8.423233] (-) TimerEvent: {}
+[8.430301] (rgo_sim_ros2_pkg) CommandEnded: {'returncode': 0}
+[8.464231] (rgo_sim_ros2_pkg) JobProgress: {'identifier': 'rgo_sim_ros2_pkg', 'progress': 'install'}
+[8.474142] (rgo_sim_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg'], 'cwd': '/home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros-industrial'), ('SSH_AGENT_PID', '1654'), ('ROS_PACKAGE_PATH', '/home/ros-industrial/rgo/ros1/catkin_ws/src:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/ros-industrial/rgo/ros1/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/ros-industrial'), ('OLDPWD', '/home/ros-industrial/rgo/ros2/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1480'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4717'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ros-industrial'), ('JOURNAL_STREAM', '8:60142'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ros-industrial/rgo/ros1/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros-industrial'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/ros-industrial/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1689,unix/ubuntu:/tmp/.ICE-unix/1689'), ('INVOCATION_ID', '13a835de1d9b4ed6826ee0c268ac1d4d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ros-industrial/rgo/ros1/catkin_ws/devel/share/common-lisp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7566d932-f2f2-4415-abf9-f6c6358c08d2'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/ros-industrial/rgo/ros1/catkin_ws/devel:/opt/ros/noetic')]), 'shell': False}
+[8.485700] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.486031] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/lib/rgo_sim_ros2_pkg/rgo_sim_ros2_node\n'}
+[8.489016] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/lib/rgo_sim_ros2_pkg/rgo_sim_ros2_node" to ""\n'}
+[8.489179] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/rgo_sim_ros2_pkg\n'}
+[8.489381] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/rgo_sim_ros2_pkg\n'}
+[8.489575] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/environment/ament_prefix_path.sh\n'}
+[8.489734] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[8.489907] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/environment/path.sh\n'}
+[8.490070] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/environment/path.dsv\n'}
+[8.490223] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/local_setup.bash\n'}
+[8.490377] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/local_setup.sh\n'}
+[8.490532] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/local_setup.zsh\n'}
+[8.490681] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/local_setup.dsv\n'}
+[8.490851] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/package.dsv\n'}
+[8.491046] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/ament_index/resource_index/packages/rgo_sim_ros2_pkg\n'}
+[8.491228] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/cmake/rgo_sim_ros2_pkgConfig.cmake\n'}
+[8.491328] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/cmake/rgo_sim_ros2_pkgConfig-version.cmake\n'}
+[8.491469] (rgo_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg/share/rgo_sim_ros2_pkg/package.xml\n'}
+[8.495919] (rgo_sim_ros2_pkg) CommandEnded: {'returncode': 0}
+[8.523411] (-) TimerEvent: {}
+[8.548111] (rgo_sim_ros2_pkg) JobEnded: {'identifier': 'rgo_sim_ros2_pkg', 'rc': 0}
+[8.549017] (-) EventReactorShutdown: {}

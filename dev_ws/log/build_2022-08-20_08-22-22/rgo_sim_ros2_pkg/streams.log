@@ -1,0 +1,47 @@
+[0.017s] Invoking command in '/home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ros-industrial/rgo/ros2/dev_ws/src/rgo_sim_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg
+[0.076s] -- The C compiler identification is GNU 9.4.0
+[0.132s] -- The CXX compiler identification is GNU 9.4.0
+[0.136s] -- Check for working C compiler: /usr/bin/cc
+[0.208s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.210s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.292s] -- Detecting C compile features
+[0.292s] -- Detecting C compile features - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.377s] -- Detecting CXX compiler ABI info
+[0.461s] -- Detecting CXX compiler ABI info - done
+[0.473s] -- Detecting CXX compile features
+[0.473s] -- Detecting CXX compile features - done
+[0.475s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.498s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.498s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.708s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.750s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.849s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.876s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.951s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.008s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.010s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.011s] -- Looking for pthread.h
+[1.086s] -- Looking for pthread.h - found
+[1.087s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.167s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.167s] -- Looking for pthread_create in pthreads
+[1.231s] -- Looking for pthread_create in pthreads - not found
+[1.231s] -- Looking for pthread_create in pthread
+[1.305s] -- Looking for pthread_create in pthread - found
+[1.306s] -- Found Threads: TRUE  
+[1.464s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.500s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.576s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[1.576s]   ament_target_dependencies() the first argument must be a valid target name
+[1.576s] Call Stack (most recent call first):
+[1.576s]   CMakeLists.txt:31 (ament_target_dependencies)
+[1.577s] 
+[1.577s] 
+[1.578s] -- Configuring incomplete, errors occurred!
+[1.579s] See also "/home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg/CMakeFiles/CMakeOutput.log".
+[1.579s] See also "/home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg/CMakeFiles/CMakeError.log".
+[1.586s] Invoked command in '/home/ros-industrial/rgo/ros2/dev_ws/build/rgo_sim_ros2_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ros-industrial/rgo/ros2/dev_ws/src/rgo_sim_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/ros-industrial/rgo/ros2/dev_ws/install/rgo_sim_ros2_pkg

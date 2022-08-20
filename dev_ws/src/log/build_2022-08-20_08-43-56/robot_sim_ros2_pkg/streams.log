@@ -1,0 +1,43 @@
+[0.036s] Invoking command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg -- -j2 -l2
+[0.178s] [35m[1mScanning dependencies of target robot_sim_ros2_node[0m
+[0.261s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o[0m
+[2.100s] [01m[K/home/ros-industrial/rgo/ros2/dev_ws/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RobotSimRos2Node::subscribe_message(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.101s] [01m[K/home/ros-industrial/rgo/ros2/dev_ws/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:51:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.101s]    51 |         float [01;35m[Kx[m[K= rgo_pose.x;
+[2.101s]       |               [01;35m[K^[m[K
+[2.101s] [01m[K/home/ros-industrial/rgo/ros2/dev_ws/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:52:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.101s]    52 |         float [01;35m[Ky[m[K= rgo_pose.y;
+[2.101s]       |               [01;35m[K^[m[K
+[2.102s] [01m[K/home/ros-industrial/rgo/ros2/dev_ws/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:53:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.102s]    53 |         float [01;35m[Kz[m[K= rgo_pose.z;
+[2.102s]       |               [01;35m[K^[m[K
+[2.105s] [01m[K/home/ros-industrial/rgo/ros2/dev_ws/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RobotSimRos2Node::subscribe_pose_message(geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.105s] [01m[K/home/ros-industrial/rgo/ros2/dev_ws/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:61:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.105s]    61 |         float [01;35m[Kx[m[K= rgo_pose_win_cov.pose.position.x ;
+[2.105s]       |               [01;35m[K^[m[K
+[2.105s] [01m[K/home/ros-industrial/rgo/ros2/dev_ws/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:62:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.106s]    62 |         float [01;35m[Kz[m[K= rgo_pose_win_cov.pose.orientation.z ;
+[2.106s]       |               [01;35m[K^[m[K
+[10.343s] [100%] [32m[1mLinking CXX executable robot_sim_ros2_node[0m
+[10.856s] [100%] Built target robot_sim_ros2_node
+[10.892s] Invoked command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg -- -j2 -l2
+[10.971s] Invoking command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg
+[10.997s] -- Install configuration: ""
+[10.998s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/lib/robot_sim_ros2_pkg/robot_sim_ros2_node
+[11.003s] -- Set runtime path of "/home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/lib/robot_sim_ros2_pkg/robot_sim_ros2_node" to ""
+[11.003s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/robot_sim_ros2_pkg
+[11.003s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/robot_sim_ros2_pkg
+[11.004s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/ament_prefix_path.sh
+[11.004s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/ament_prefix_path.dsv
+[11.004s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/path.sh
+[11.004s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/path.dsv
+[11.004s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.bash
+[11.005s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.sh
+[11.006s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.zsh
+[11.007s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.dsv
+[11.007s] -- Installing: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/package.dsv
+[11.008s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/ament_index/resource_index/packages/robot_sim_ros2_pkg
+[11.008s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/cmake/robot_sim_ros2_pkgConfig.cmake
+[11.008s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/cmake/robot_sim_ros2_pkgConfig-version.cmake
+[11.009s] -- Up-to-date: /home/ros-industrial/rgo/ros2/dev_ws/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/package.xml
+[11.009s] Invoked command in '/home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ros-industrial/rgo/ros2/dev_ws/src/build/robot_sim_ros2_pkg
