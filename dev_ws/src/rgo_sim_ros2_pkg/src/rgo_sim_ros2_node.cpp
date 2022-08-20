@@ -22,9 +22,12 @@ class RgoRos2Node : public rclcpp::Node
     RgoRos2Node ()
     : Node("rgo_ros2_node"), count_(0)
     {            
+      RCLCPP_INFO(this->get_logger(), "v2 ");
       //create subscribers 
       subscriber_         = this->create_subscription<geometry_msgs::msg::Twist>("robot_sim_velocity", 1, std::bind(&RgoRos2Node::subscribe_message, this, _1));
-      odometry_subscriber_   = this->create_subscription<nav_msgs::msg::Odometry>("robot_sim_odometry", 1, std::bind(&RgoRos2Node::subscribe_odometry_message, this, _1));
+      //odometry_subscriber_   = this->create_subscription<nav_msgs::msg::Odometry>("robot_sim_odometry", 1, std::bind(&RgoRos2Node::subscribe_odometry_message, this, _1));
+      odometry_subscriber_   = this->create_subscription<nav_msgs::msg::Odometry>("robot_sim_ros1_odom", 1, std::bind(&RgoRos2Node::subscribe_odometry_message, this, _1));
+      
       
       //create publishers
       publisher_ = this->create_publisher<geometry_msgs::msg::Pose>("rgo_pos",1);
@@ -62,6 +65,9 @@ class RgoRos2Node : public rclcpp::Node
 
     void subscribe_message(const geometry_msgs::msg::Twist::SharedPtr message) const
     {
+        float x= 0.0;
+        x= message->linear.x;
+        x=x+1;
         //RCLCPP_INFO(this->get_logger(), "Twist Linear Velocity : '%f', Angular Velocity : '%f'", message->linear.x, message->angular.z);
     }
       
