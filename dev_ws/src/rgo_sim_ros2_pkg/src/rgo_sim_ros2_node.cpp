@@ -26,6 +26,7 @@ class RgoRos2Node : public rclcpp::Node
       //create subscribers 
       subscriber_         = this->create_subscription<geometry_msgs::msg::Twist>("robot_sim_velocity", 1, std::bind(&RgoRos2Node::subscribe_message, this, _1));
       //odometry_subscriber_   = this->create_subscription<nav_msgs::msg::Odometry>("robot_sim_odometry", 1, std::bind(&RgoRos2Node::subscribe_odometry_message, this, _1));
+      //read odom from robot
       odometry_subscriber_   = this->create_subscription<nav_msgs::msg::Odometry>("odom", 1, std::bind(&RgoRos2Node::subscribe_odometry_message, this, _1));
       
       
